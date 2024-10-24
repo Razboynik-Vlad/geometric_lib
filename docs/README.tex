@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=black, urlbordercolor={1 1 1}]{hyperref}
+\usepackage[dvipsnames]{xcolor}
+
+
+\lstloadlanguages{Python}
+\lstset{
+    language=TeX,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{Blue},
+    emph={area,perimeter},
+    emphstyle=\color{Orange},
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    tabsize=2,
+    mathescape=true
+}
+\title{Работа с LaTeX. Лабораторная работа № 3}
+\author{Владислав Хозеев М3110, Сенсей:  Жуйков Артём Сергеевич}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+\section{Введение}
+    \paragraph{} В данном документе будет рассмотрена библиотека работа с площадью и периметром на примере квадрата и круга в реализации на языке программирования Python.
+    
+
+\section{Примеры}
+
+
+\subsubsection{Квадрат}
+
+\begin{lstlisting}[language=Python]
+def area(a):
+    return a * a
+
+def perimeter(a):
+    return 4 * a
+\end{lstlisting}
+
+Эта программа вычисляет площадь и периметр квадрата используя заданную сторону квадрата.
+
+\begin{equation}
+A = a^2
+\end{equation}
+
+\begin{equation}
+P = 4a
+\end{equation}
+
+где $A$ -- это площадь, $P$ -- это периметр, и $a$ -- длина стороны квадрата.
+
+
+\subsubsection{Круг}
+
+\begin{lstlisting}[language=Python]
+import math
+
+def area(r):
+    return $\pi$ * r * r
+
+def perimeter(r):
+    return 2 * $\pi$  * r
+\end{lstlisting}
+
+Программа вычисляет площадь и периметр круга.
+
+\begin{equation}
+A = \pi r^2
+\end{equation}
+
+\begin{equation}
+P = 2\pi r
+\end{equation}
+
+Где $A$ -- это площадь, $P$ -- это периметр, and $r$ -- радиус.
+
+\section{Cсылка на GitHub, для оценки исходного кода}
+
+\href{https://github.com/Razboynik-Vlad/geometric_lib}{Cсылка на GitHub}
+
+\newpage
+P.S. Как можно убрать желтые прямоугольники при наведении на ссылку, я уже пол интернета облазил, но так и не нашел как это исправить
+\end{document}

@@ -1,0 +1,7 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Введение}{2}{section.1}%
+\contentsline {paragraph}{}{2}{section*.2}%
+\contentsline {section}{\numberline {2}Примеры}{2}{section.2}%
+\contentsline {subsubsection}{\numberline {2.0.1}Квадрат}{2}{subsubsection.2.0.1}%
+\contentsline {subsubsection}{\numberline {2.0.2}Круг}{2}{subsubsection.2.0.2}%
+\contentsline {section}{\numberline {3}Cсылка на GitHub, для оценки исходного кода}{2}{section.3}%
