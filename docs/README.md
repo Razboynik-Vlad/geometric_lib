@@ -1,21 +1,22 @@
+# Отчет
 
-# How to use calculator:
-1. Run `python calculate.py`
-2. Enter the figure name. Available are Circle, Square.
-3. Enter the function: Area or Perimeter.
-4. Enter figure sizes. Radius for circle, one side for square.
-5. Get the answer!
+### 1. Была создана ветка feat/test от ветки develop
 
-# Math formulas
-## Area
-- Circle: `S = πR²`
-- Rectangle: `S = ab`
-- Square: `S = a²`
-- Triangle: `S = sqrt(p * (p-a) * (p-b) * (p-c))` where p is semiperimeter
+### 2. Была создана папка tests и файл с тестами всех функций test_calculate.py на фреймфорке unittests 2.1
 
-## Perimeter
-- Circle: `P = 2πR`
-- Rectangle: `P = 2a + 2b`
-- Square: `P = 4a`
-- Triangle: `P = a + b + c`
+### 3. В процессе решения проблемы с импортом функции calc были добавлены:
+    1. Пустой файл __init___.py
+    2. Папка env
+    3. Папка __pycache__
+    4. файл requirenments.txt
+    5. В файле Calculate.py были добавлены 2 строчки для корректного тестирования
+    6. Иных изменений в коде не было
+
+### 4. Был создан .yml файл Sigareta_test.yml
+
+### 5. В процессе создания проблем почти не возникло
+
+### 6. Ссылка на PR : 
+    https://github.com/Razboynik-Vlad/geometric_lib/pull/5
+
 
