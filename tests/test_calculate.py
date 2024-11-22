@@ -109,6 +109,7 @@ class TestCalc(unittest.TestCase):
         with self.assertRaises(ValueError):
             calc("square", "area", [-1])
 
+
 if __name__ == '__main__':
     unittest.main()
      
