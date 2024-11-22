@@ -8,13 +8,15 @@
     1. Пустой файл __init___.py
     2. Папка env
     3. Папка __pycache__
-    4. Иных изменений в коде не было
+    4. файл requirenments.txt
+    5. В файле Calculate.py были добавлены 2 строчки для корректного тестирования
+    6. Иных изменений в коде не было
 
 ### 4. Был создан .yml файл Sigareta_test.yml
 
-### 5. В процессе создания проблем не возникло
+### 5. В процессе создания проблем почти не возникло
 
 ### 6. Ссылка на PR : 
-    https://github.com/Razboynik-Vlad/geometric_lib/pull/4
+    https://github.com/Razboynik-Vlad/geometric_lib/pull/5
 
 
